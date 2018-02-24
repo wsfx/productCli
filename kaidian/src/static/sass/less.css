@@ -1,0 +1,84 @@
+body {
+  background: #f00;
+}
+.row .col-md-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.row .col-md-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.row .col-md-3 {
+  width: 25%;
+  float: left;
+}
+.row .col-md-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.row .col-md-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.row .col-md-6 {
+  width: 50%;
+  float: left;
+}
+.row .col-md-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.row .col-md-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.row .col-md-9 {
+  width: 75%;
+  float: left;
+}
+.row .col-md-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.row .col-md-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.row .col-md-12 {
+  width: 100%;
+  float: left;
+}
+/**
+  less 和 scss sass
+
+  用法
+  有点
+  缺点
+  区别
+  试用场景
+
+  问题
+  解决方案
+
+  jquery：
+  优点：
+  用的时候比较方便
+  比较小，简单
+
+  强大的dom操作
+  特别好的兼容性（隐式迭代）
+  链式调用（可以执行完成一个方法后在继续执行）
+    get类方法和set类方法  set类方法可以链式调用，get类不可以
+
+  拥有ajax，动画的封装
+  可扩展性强 (可以添加插件)
+  社区强大（基于jquery的插件特别多）
+  多态（一个方法多种用法）
+
+
+  jquery源码？
+
+  
+
+**/

@@ -1,0 +1,21 @@
+$grid-num: 12;
+$screen-md-min: 1024;
+body {
+  background:#fff;
+  color: #f00;
+  font-size: $grid-num;
+}
+@mixin calc-grid-column($class) {
+  @for $i from 0 to $grid-num {
+    .col-#{$class}-#{$i+1} {
+      width: percentage(($i+1) / $grid-num);
+      float: left;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .row {
+    @include calc-grid-column('md');
+  }
+}
